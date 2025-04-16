@@ -9,9 +9,14 @@ const BudgetChart = dynamic(() => import('../components/BudgetChart'), {
 function Home() {
   return (
     <div className="App">
-      <h1>Budget Practice</h1>
-      <BudgetChart />
-      <BudgetForm />
+      <div>
+        <h1>Budget Practice</h1>
+        <BudgetChart />
+        <BudgetForm />
+      </div>
+      <div>
+        <h2>see your spending details</h2>
+      </div>
     </div>
   );
 }

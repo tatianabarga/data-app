@@ -10,7 +10,6 @@ export default function BudgetForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     addEntry({ id: Date.now(), type, amount: Number(amount) });
-    // setAmount('');
   };
 
   return (
